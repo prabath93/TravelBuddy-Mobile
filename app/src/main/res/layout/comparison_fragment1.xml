@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Compare \n vehicles \n by model"
+            android:id="@+id/textView30" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/arrow1"
+            android:id="@+id/comparisonByModelBtn1"
+            android:clickable="true" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Compare \n vehicles \n by type"
+            android:id="@+id/textView31" />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/arrow1"
+            android:id="@+id/comparisonByTypeBtn1"
+            android:clickable="true" />
+
+    </TableRow>
+
+
+
+
+</LinearLayout>

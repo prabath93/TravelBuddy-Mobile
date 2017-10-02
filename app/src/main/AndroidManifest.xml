@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prabaths.TravelBuddy" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="zaSyCxqWBD13Q5r11vcclf_mbJosqfnw33s8E" />
+
+        <activity
+            android:name=".Login_Activity"
+            android:icon="@drawable/logo"
+            android:label="TravelBuddy" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_login_" >
+        </activity>
+        <activity android:name="com.example.prabaths.inner.activity.Comparison_By_Model_Activity"/>
+        <activity android:name="com.example.prabaths.inner.activity.Comparison_By_Type_Activity"/>
+        <activity android:name="com.example.prabaths.inner.activity.Fuel_Expense_Graph_Activity"/>
+        <activity android:name="com.example.prabaths.inner.activity.Other_Expense_Graph_Activity"/>
+        <activity android:name="com.example.prabaths.inner.activity.Economy_Graph_Activity"/>
+    </application>
+
+</manifest>

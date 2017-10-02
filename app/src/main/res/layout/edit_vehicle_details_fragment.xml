@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/vehiclePicImView2"
+                android:src="@drawable/car" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Image"
+                android:layout_marginLeft="230dp"
+                android:id="@+id/changeVehicleImageBtn2" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Registration No"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView14" />
+
+            <EditText
+                android:layout_width="195dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/regNoEditTxt1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Model"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView15" />
+
+            <EditText
+                android:layout_width="195dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/modelEditTxt1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Brand"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView16" />
+
+            <EditText
+                android:layout_width="195dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/brandEditTxt1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Year"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView17" />
+
+            <EditText
+                android:layout_width="195dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/yearEditTxt1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Type"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView18" />
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/vehicleTypeSpinner1"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="-30dp" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Save"
+                    android:layout_weight="1"
+                    android:id="@+id/submitEditBtn" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"
+                    android:layout_weight="1"
+                    android:id="@+id/deleteVehicleBtn" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
